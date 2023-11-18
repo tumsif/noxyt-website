@@ -3,9 +3,285 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Noxyt Biashara - Our Cloud Based Suite for your Business</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Comming soon</h1>
+    <header
+      class="container-fluid bg-dark m-0 p-3 d-flex justify-content-between shadow"
+    >
+      <div class="display-5 text-light">Noxyt</div>
+      <a
+        href="./index.html"
+        class="btn btn-danger h-25 align-self-center home-content"
+      >
+        <i class="fa fa-home text-white"></i>
+      </a>
+    </header>
+    <main class="container-lg d-grid">
+      <div class="row">
+        <div class="col-xl-7 text-start py-3">
+          <h1 class="mt-5 h4 pt-2 pb-2 border-bottom header-light">
+            N-Biashara Registration Form
+          </h1>
+          <div class="row py-2 px-2">
+            <label for="store_name" class="col-xl-3 text-start"
+              >Store Name</label
+            >
+            <input
+              type="text"
+              name="store_name"
+              id="store_name"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the business name"
+            />
+          </div>
+          <div class="row py-3 px-2">
+            <label for="store_desc" class="col-xl-3 text-start"
+              >Store Description
+              <small class="text-danger small-text"
+                >Include payment information (Operator, Phone Number And Display
+                Name)</small
+              >
+            </label>
+            <textarea
+              name="store_desc"
+              id="store_desc"
+              cols="20"
+              rows="4"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the business description"
+            ></textarea>
+          </div>
+          <div class="row py-3 px-2">
+            <label for="store_name" class="col-xl-3 text-start"
+              >Store Category</label
+            >
+            <select
+              name="store_cat"
+              id="store_cat"
+              class="col-xl-9 p-2 text-start form-select-lg"
+              aria-label="select store category"
+            >
+              <option value="electronics">Electronics</option>
+              <option value="furnitures">Furnitures</option>
+              <option value="clothfashion">Clothing and Fashion</option>
+              <option selected value="others">Others</option>
+            </select>
+          </div>
+          <div class="row py-3 px-2">
+            <label for="store_no" class="col-xl-3 text-start"
+              >Store Phone Number</label
+            >
+            <input
+              type="text"
+              name="store_no"
+              id="store_no"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the business phone Number"
+            />
+          </div>
+          <div class="row py-3 px-2 border-bottom">
+            <label for="store_email" class="col-xl-3 text-start"
+              >Store Email Address</label
+            >
+            <input
+              type="email"
+              name="store_email"
+              id="store_email"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the business Email Address"
+            />
+          </div>
+          <div class="row py-3 px-2">
+            <label for="owner_name" class="col-xl-3 text-start"
+              >Owner Full Name</label
+            >
+            <input
+              type="text"
+              name="owner_name"
+              id="owner_name"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the business owner name"
+            />
+          </div>
+          <div class="row py-3 px-2">
+            <label for="owner_no" class="col-xl-3 text-start"
+              >Owner Phone Number</label
+            >
+            <input
+              type="text"
+              name="owner_no"
+              id="owner_no"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the business owner phone number"
+            />
+          </div>
+          <div class="row py-3 px-2 border-bottom">
+            <label for="owner_email" class="col-xl-3 text-start"
+              >Owner Email Address</label
+            >
+            <input
+              type="text"
+              name="owner_email"
+              id="owner_email"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the business owner email address"
+            />
+          </div>
+          <div class="row py-3 px-2 border-bottom">
+            <label for="store_desc" class="col-xl-3 text-start"
+              >Store Location
+              <small class="text-danger small-text"
+                >Drop a pin on a physical location of this hall to obtain GPS
+                Location</small
+              >
+            </label>
+            <div class="col-xl-9 p-2 text-start">
+              <input
+                type="text"
+                name="location"
+                id="owner_no"
+                class="col-xl-9 p-2 text-start w-100"
+                value="6655+GGJ, Dar es Salaam, Tanzania"
+                placeholder="Enter the business owner phone number"
+              />
+              <div
+                class="p-2 text-start my-3"
+                style="
+                  background-color: rgb(255, 142, 142);
+                  width: 100%;
+                  height: 300px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  color: #fff;
+                  font-size: 2rem;
+                "
+              >
+                map stays here
+              </div>
+            </div>
+          </div>
+          <div class="row py-3 px-2">
+            <label for="facebook" class="col-xl-3 text-start"
+              >Store Facebook Page</label
+            >
+            <input
+              type="text"
+              name="facebook"
+              id="facebook"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the facebook profile name"
+            />
+          </div>
+          <div class="row py-3 px-2">
+            <label for="instagram" class="col-xl-3 text-start"
+              >Store Instagram Page</label
+            >
+            <input
+              type="text"
+              name="instagram"
+              id="instagram"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the instagram profile name"
+            />
+          </div>
+          <div class="row py-3 px-2 border-bottom">
+            <label for="twitter" class="col-xl-3 text-start"
+              >Store Twitter Page</label
+            >
+            <input
+              type="text"
+              name="twitter"
+              id="twitter"
+              class="col-xl-9 p-2 text-start"
+              placeholder="Enter the twitter profile name"
+            />
+          </div>
+          <div class="p-4 form-check mx-auto">
+            <input
+              class="form-check-input p-2 mx-4"
+              type="checkbox"
+              name="terms"
+              id="terms"
+            />
+            <label for="terms" class="form-check-label"
+              >I Agree with
+              <a
+                href="./privacy-policy.html"
+                class="link-primary link-underline-opacity-0"
+                >Terms & condition of this service</a
+              ></label
+            >
+          </div>
+          <button class="btn btn-danger btn-lg w-100" type="submit">
+            Submit Details
+          </button>
+        </div>
+        <div class="col-xl-5 text-start p-3">
+          <h2 class="mt-5 h4 pt-2 pb-2 border-bottom header-light">
+            What is N-biashara ?
+          </h2>
+          <p class="pb-3">
+            N-Biashara is a cloud based suite of features platform that allows
+            you to quickly TURN ON the latest e-commerce features on your
+            business while providing a future proof solution.
+          </p>
+          <h3 class="h5 header-light">Features</h3>
+          <ul class="pb-3">
+            <li class="pb-1">Manage Sales And Stock Movement</li>
+            <li class="pb-1">Manage Customer Register</li>
+            <li class="pb-1">
+              Accept Cash And Its Integrated To Mobile Money Payment Systems
+            </li>
+            <li class="pb-1">
+              Responsive Frontend. ie Works on all Smarphones, Tablets and PC's
+            </li>
+            <li class="pb-1">Product Recommendations</li>
+            <li class="pb-1">NPS Analyser</li>
+          </ul>
+          <h3 class="h5 header-light">Five Easy Steps</h3>
+          <ol class="pb-3">
+            <li class="pb-1">Register Your Business Profile</li>
+            <li class="pb-1">Add Product And Their Description</li>
+            <li class="pb-1">Define Product Price</li>
+            <li class="pb-1">
+              Advertise on all media. eg Radio, Tv, Social Media
+            </li>
+            <li class="pb-1">Make Sales</li>
+          </ol>
+          <h3 class="h5 header-light">Advantages</h3>
+          <ul class="pb-3">
+            <li class="pb-1">Easy Setup</li>
+            <li class="pb-1">Very Affordable</li>
+            <li class="pb-1">
+              Increase Market Size And Brand Awareness With Online Merchandising
+            </li>
+            <li class="pb-1">Give Your Whole Business An Online Presence</li>
+            <li class="pb-1">
+              Track End To End Order Processing. ie From Order Capture To
+              Delivery
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
