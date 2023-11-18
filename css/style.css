@@ -25,7 +25,7 @@ h6,
 }
 /* button*/
 .btn {
-  font-family: nunito, sans-serif;
+  font-family: nunito, Arial, Helvetica, sans-serif;
   font-weight: 600;
   transition: 0.5s;
 }
@@ -71,7 +71,7 @@ h6,
   color: var(--primary);
 }
 .navbar-light .navbar-nav .nav-link {
-  font-family: nunito, sans-serif;
+  font-family: nunito, Arial, Helvetica, sans-serif;
   position: relative;
   margin-left: 25px;
   padding: 35px 0;
@@ -207,7 +207,7 @@ h6,
   }
 }
 
-.carousel-control-prev,
+/* .carousel-control-prev,
 .carousel-control-next {
   width: 10%;
 }
@@ -216,7 +216,7 @@ h6,
 .carousel-control-next-icon {
   width: 3rem;
   height: 3rem;
-}
+} */
 
 .section-title-1::before,
 .section-title-2::before {
@@ -333,7 +333,7 @@ h6,
     left: 0;
   }
 }
-
+/* 
 .story::after {
   position: absolute;
   content: "";
@@ -397,7 +397,7 @@ h6,
     left: 0;
     border-color: transparent transparent var(--light) transparent;
   }
-}
+} */
 /*callout-section*/
 .bg-danger-gradient {
   background: linear-gradient(
@@ -443,7 +443,7 @@ h6,
   bottom: -24px;
   opacity: 1;
 }
-
+/* 
 .service3-item > div {
   z-index: 1;
 }
@@ -458,9 +458,9 @@ h6,
   border-radius: 2px 2px 0 0;
   transition: 0.5s;
   z-index: -1;
-}
+} */
 
-.service3-item div:hover::after {
+/* .service3-item div:hover::after {
   width: 100%;
   background: var(--primary);
 }
@@ -491,16 +491,7 @@ h6,
 
 .service3-item:hover .service-icon i {
   color: var(--primary) !important;
-}
-
-.price-table > thead > tr > td,
-.price-table > thead > tr > th,
-.price-table > tbody > tr > td,
-.price-table > tbody > tr > th,
-.price-table > tfoot > tr > td,
-.price-table > tfoot > tr > th {
-  padding: 15px 20px;
-}
+} */
 
 /*testimonial section*/
 
@@ -704,7 +695,7 @@ h6,
 .process-item .position-relative::after {
   position: absolute;
   content: "\f101";
-  font-family: "font awesome 5 free";
+  font-family: "font awesome 5 free", Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 50px;
   color: #ddd;
@@ -794,15 +785,24 @@ h6,
 }
 
 .hero-header {
-  background: url(../img/hero-header.jpg) top right no-repeat;
+  background: linear-gradient(rgba(9, 30, 62, 0.7), rgba(9, 30, 62, 0.7)),
+    url(../img/hero-header.jpg) top right no-repeat;
+  background-image: image-set(
+    "../img/hero-header.webp",
+    "../img/her0-header.jpg"
+  );
+  background-image: -webkit-image-set(
+    "../img/hero-header.webp",
+    "../img/her0-header.jpg"
+  );
   background-size: cover;
 }
 
-.bg-header {
+/* .bg-header {
   background: linear-gradient(rgba(9, 30, 62, 0.7), rgba(9, 30, 62, 0.7)),
     url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
-}
+} */
 
 .link-animated a {
   transition: 0.5s;
