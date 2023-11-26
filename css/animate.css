@@ -28,11 +28,26 @@
     fill: #f16f6b;
   }
 }
-
-.logo-center {
-  height: 100vh;
+/*article section*/
+.article-center {
+  height: 110vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.article-slanted {
+  clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0);
+}
+.article-dark {
+  background-color: rgb(46, 46, 46);
+}
+.article-red {
+  background-color: rgba(255, 0, 0, 0.637);
+}
+.article-blue {
+  background-color: rgba(0, 0, 255, 0.658);
+}
+.article-light {
+  background-color: #fff;
 }
