@@ -295,7 +295,7 @@ h6,
   animation: section-title-run-sm 5s infinite linear;
 }
 
-@-webkit-keyframes section-title-run {
+@keyframes section-title-run {
   0% {
     left: 0;
   }
@@ -309,7 +309,7 @@ h6,
   }
 }
 
-@-webkit-keyframes section-title-run-center {
+@keyframes section-title-run-center {
   0% {
     left: 50%;
     margin-left: -75px;
@@ -326,7 +326,7 @@ h6,
   }
 }
 
-@-webkit-keyframes section-title-run-sm {
+@keyframes section-title-run-sm {
   0% {
     left: 0;
   }
@@ -473,7 +473,7 @@ h6,
   animation: process-item-icon 3s infinite linear;
 }
 
-@-webkit-keyframes process-item-icon {
+@keyframes process-item-icon {
   0% {
     right: -30px;
   }
