@@ -802,7 +802,7 @@ input[type="checkbox"] {
   height: 200px;
   display: flex;
   align-items: center;
-  animation: slideshow 8s linear infinite;
+  animation: slideshow 20s linear infinite;
 }
 .partners-slide img {
   height: 80px;
