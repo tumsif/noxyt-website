@@ -552,6 +552,8 @@ h6,
   z-index: 99;
 }
 
+/*hero section for the home page*/
+
 .hero-header {
   background: url(../img/hero-header.jpg) top right no-repeat;
   background-image: image-set(
@@ -564,6 +566,47 @@ h6,
   );
   background-size: cover;
 }
+
+/*hero section for our-services and our our-projects page*/
+
+.hero-header-2 {
+  background: url(../img/hero-header-cropped.jpg) top right no-repeat;
+  background-image: image-set(
+    "../img/hero-header-cropped.webp",
+    "../img/hero-header-cropped.jpg"
+  );
+  background-image: -webkit-image-set(
+    "../img/hero-header-cropped.webp",
+    "../img/hero-header-cropped.jpg"
+  );
+  background-size: cover;
+  height: 20vh;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-header-2 {
+    background: url(../img/hero-header-cropped-small.jpg) top right no-repeat;
+    background-image: image-set(
+      "../img/hero-header-cropped-small.webp",
+      "../img/hero-header-cropped-small.jpg"
+    );
+    background-image: -webkit-image-set(
+      "../img/hero-header-cropped-small.webp",
+      "../img/hero-header-cropped-small.jpg"
+    );
+    background-size: cover;
+    height: 20vh;
+  }
+}
+
+.hero-header-2,
+.hero-header-2-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .link-animated a {
   transition: 0.5s;
 }
