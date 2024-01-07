@@ -1,5 +1,5 @@
 // Initialize and add the map
-let map;
+let map, infoWindow;
 
 async function initMap() {
   // The location of Magufuli hostel
@@ -13,10 +13,11 @@ async function initMap() {
   map = new Map(document.getElementById("map"), {
     zoom: 15,
     center: position,
-    mapId: "DEMO_MAP_ID",
+    mapId: "map-1",
+    mapTypeControl: true,
   });
 
-  // The marker, positioned at Uluru
+  // The marker, positioned at magufuli hostel
   const marker = new AdvancedMarkerElement({
     map: map,
     position: position,
