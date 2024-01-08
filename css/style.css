@@ -888,3 +888,14 @@ input[type="checkbox"] {
   margin-top: 10px;
   border-radius: 5px;
 }
+
+/*contents for our services and our projects page*/
+.details-img {
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.details-content {
+  color: #444;
+  font-size: 1.1rem;
+}
