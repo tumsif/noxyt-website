@@ -1,0 +1,23 @@
+{
+  "short_name": "NSS",
+  "name": "Noxyt Software Solution",
+  "description": "A Software company in Tanzania.",
+  "icons": [
+    {
+      "src": "../img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "/",
+  "start_url": ".",
+  "background_color": "#C83939",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#C83939"
+}
