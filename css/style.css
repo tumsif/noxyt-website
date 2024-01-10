@@ -725,30 +725,6 @@ input[type="checkbox"] {
   background: url(../img/user-profile-2.svg) top right no-repeat;
   background-size: cover;
 }
-.img-3 {
-  background: url(../img/testimonial-3.jpg) top right no-repeat;
-  background-image: image-set(
-    "../img/testimonial-3.webp",
-    "../img/testimonial-3.jpg"
-  );
-  background-image: -webkit-image-set(
-    "../img/testimonial-3.webp",
-    "../img/testimonial-3.jpg"
-  );
-  background-size: cover;
-}
-.img-4 {
-  background: url(../img/testimonial-4.jpg) top right no-repeat;
-  background-image: image-set(
-    "../img/testimonial-4.webp",
-    "../img/testimonial-4.jpg"
-  );
-  background-image: -webkit-image-set(
-    "../img/testimonial-4.webp",
-    "../img/testimonial-4.jpg"
-  );
-  background-size: cover;
-}
 .slide {
   width: 50%;
   text-align: center;
