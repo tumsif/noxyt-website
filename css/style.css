@@ -693,17 +693,12 @@ input[type="checkbox"] {
   box-shadow: 0 0 5px #bbb;
 }
 .testimonial-container {
-  width: 100%;
-  margin: auto;
-}
-.testimonial-subcontainer {
-  width: 85%;
+  width: 95%;
   margin: auto;
 }
 .testimonial-wrapper {
   width: 100%;
   height: auto;
-  padding-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -723,27 +718,11 @@ input[type="checkbox"] {
   box-shadow: 0 0 5px #bbb;
 }
 .img-1 {
-  background: url(../img/testimonial-1.jpg) top right no-repeat;
-  background-image: image-set(
-    "../img/testimonial-1.webp",
-    "../img/testimonial-1.jpg"
-  );
-  background-image: -webkit-image-set(
-    "../img/testimonial-1.webp",
-    "../img/testimonial-1.jpg"
-  );
+  background: url(../img/user-profile-icon.svg) top right no-repeat;
   background-size: cover;
 }
 .img-2 {
-  background: url(../img/testimonial-2.jpg) top right no-repeat;
-  background-image: image-set(
-    "../img/testimonial-2.webp",
-    "../img/testimonial-2.jpg"
-  );
-  background-image: -webkit-image-set(
-    "../img/testimonial-2.webp",
-    "../img/testimonial-2.jpg"
-  );
+  background: url(../img/user-profile-2.svg) top right no-repeat;
   background-size: cover;
 }
 .img-3 {
@@ -770,18 +749,15 @@ input[type="checkbox"] {
   );
   background-size: cover;
 }
-.slider-wrapper {
-  width: 100%;
-}
 .slide {
-  width: 100%;
+  width: 50%;
   text-align: center;
   line-height: 1.5;
   font-style: italic;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .slide p {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 .previous,
 .next {
